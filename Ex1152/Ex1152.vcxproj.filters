@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConquerLolUniverse.c">
+    <ClCompile Include="..\Ex1237\NumberOfWords.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
