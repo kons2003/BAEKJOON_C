@@ -4,19 +4,27 @@
 #include<string.h>
 
 int main() {
-    int count = 0;
-    char str[10000];
+    char arr[1000002];
+    int len, count = 0;
+    int i = 0;
 
-    scanf("%s", &str);
+    scanf("%[^\n]", &arr);
+    len = strlen(arr);
 
-    for (int i = 1; i <= strlen(str); i++)
-    {
-        if (str[i] == ' ')
-            count++;
-        else
-            continue;
+    if (len == 1) { 
+        if (arr[i] == ' ') {
+            printf("0\n");
+            return 0;
+        }
     }
-    printf("%d\n", count);
+
+    for (i = 1; i < len - 1; i++) {
+        if (arr[i] == ' ') {
+            count++;
+        }
+    }
+
+    printf("%d\n", count+1);
 
     return 0;
 }
