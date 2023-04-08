@@ -20,7 +20,7 @@ int main() {
 		ch += 23;
 		cm += 60;
 	}
-
+	
 	printf("%d %d", ch, cm);
 	return 0;
 }
