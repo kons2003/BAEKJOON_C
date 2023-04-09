@@ -5,7 +5,7 @@
 
 int main() {
     char arr[1000002];
-    int len, count = 0;
+    int len = 0, count = 0;
     int i = 0;
 
     scanf("%[^\n]", &arr);
