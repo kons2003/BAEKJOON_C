@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Ex2884\OvenClock.c">
+    <ClCompile Include="ThreeDice.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
