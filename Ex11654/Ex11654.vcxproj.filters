@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="String.c">
+    <ClCompile Include="..\Ex9086\ASCIICode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

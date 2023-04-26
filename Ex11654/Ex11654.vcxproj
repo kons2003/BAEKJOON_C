@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f5c12ddc-2992-422c-b7d6-b339796664d8}</ProjectGuid>
-    <RootNamespace>Ex9086</RootNamespace>
+    <ProjectGuid>{cfd11907-8677-48fd-a673-935b84f8bace}</ProjectGuid>
+    <RootNamespace>Ex11654</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="String.c" />
+    <ClCompile Include="..\Ex9086\ASCIICode.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
