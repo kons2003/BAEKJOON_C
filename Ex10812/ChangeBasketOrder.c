@@ -10,8 +10,8 @@ int main() {
 
 	scanf("%d %d", &n, &m);
 	arr = malloc(sizeof(int) * n);
-	for (i = 1; i <= n; i++)
-		arr[i] = i;
+	for (i = 0; i < n; i++)
+		arr[i] = i + 1;
 	for (i = 0; i < m; i++)
 	{
 		scanf("%d %d %d", &beg, &end, &mid);
